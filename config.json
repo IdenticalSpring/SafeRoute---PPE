@@ -1,0 +1,19 @@
+{
+  "routing": {
+    "gate": "PP-PicoDet-S",
+    "risk_tolerance": 0.2,
+    "latency_lambda": 0.12,
+    "min_improvement_margin": 0.0
+  },
+  "calibration": {
+    "alpha": 0.1,
+    "min_group_images": 20
+  },
+  "final_nms_iou": 0.6,
+  "synthetic_demo_costs_ms": {
+    "YOLOv12-S": 8.0,
+    "RTMDet-tiny": 5.0,
+    "RT-DETRv2-S": 12.0
+  },
+  "synthetic_reference_ms": 10.0
+}
